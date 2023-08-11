@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: rgb(231, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  padding: 0px;
+  text-align: center;
+}
+
+.button {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+/* Estilos generales para los elementos de caja */
+.input-box,
+.result-box {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilos específicos para input-box */
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-box input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.result-label {
+  font-weight: bold;
+  font-size: 16px;
+  color: #b8b7b7; /* Color para la etiqueta "Resultado" */
+  margin-bottom: 5px;
+}
+
+.result-value {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000; /* Color para el valor calculado */
+}
+
+/* Agrega este CSS en tu archivo de estilos */
+
+.discount-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px; /* Espacio entre el resultado y el botón */
+}
+
+.generate-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px; /* Espacio entre el botón y el código generado */
+}
+
+.no-discount-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.codigo-generado {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  background-color: #c9cbcc;
+  padding: 8px 0;
+}
+
+.selected-values-box {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.selected-value {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.selected-label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.selected-info {
+  display: flex;
+  align-items: center;
+}
+
+.ttl-input-box {
+  margin: 20px;
+}
+
+.ttl-label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.ttl-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
