@@ -16,7 +16,9 @@ export const rutasVuelos = [
     'VVI -- LIM -- VVI',
     'VVI -- SCL -- VVI',
     'VVI -- MAD -- VVI',
-    'VVI -- PAR -- VVI'
+    'VVI -- PAR -- VVI',
+    'VVI -- GRU -- VVI',
+    'VVI -- RIO -- VVI',
 ];
 export const cantidadPasajeros = [1, 2, 3, 4, 5];
 
@@ -28,9 +30,10 @@ export const aerolineas = [
     'CM',
     'LA',
     'OB',
-    'UX'
+    'UX',
+    'G3',
 ];
-// Tengo 13 datos en firebase
+
 export const montos = [
     299.00,
     352.60,
@@ -40,7 +43,9 @@ export const montos = [
     319.88,
     332.58,
     812.20,
-    1022.00
+    1022.00,
+    214.80,
+    318.40,
   ];
 
   export const rutasValores = {
@@ -52,5 +57,7 @@ export const montos = [
     'VVI -- LIM -- VVI': { aerolinea: 'LA', proveedor: 'AIRGATEWAY', monto: '319.88' },
     'VVI -- SCL -- VVI': { aerolinea: 'LA', proveedor: 'AIRGATEWAY', monto: '332.58' },
     'VVI -- MAD -- VVI': { aerolinea: 'OB', proveedor: 'AMADEUS', monto: '812.20' },
-    'VVI -- PAR -- VVI': { aerolinea: 'UX', proveedor: 'AMADEUS', monto: '1022.00' }
+    'VVI -- PAR -- VVI': { aerolinea: 'UX', proveedor: 'AMADEUS', monto: '1022.00' },
+    'VVI -- GRU -- VVI': { aerolinea: 'G3', proveedor: 'AMADEUS', monto: '214.80'},
+    'VVI -- RIO -- VVI': { aerolinea: 'G3', proveedor: 'AMADEUS', monto: '318.40'},
   };
